@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>Treasure Hunters</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+<div id="main_container">
+  <div class="top_leafs"><img src="images/top_leafs.png" alt="" /></div>
+  <div id="header">
+    <div class="logo"> <a>Treasure Hunters</a> </div>
+    <div class="menu">
+      <ul>
+       <li ><a href="Index.html">Home</a></li>
+       <li class="selected"><a href="Register.html">Register</a></li>
+      </ul>
+    </div>
+  </div>
+  <div >
+  <h1 style="text-align:center"> Registration Form </h1>
+      <form name="RegForm" action="/submit.php" onsubmit="return register()" method="post">
+
+          <p>Name: <input type="text" size=65 name="Name"> </p><br>
+          <p>Address: <input type="text" size=65 name="Address">  </p><br>
+          <p>E-mail Address: <input type="text" size=65 name="EMail">  </p><br>
+          <p>Teammates: <input type="text" size=65 name="Teammates"> </p><br>
+          <p>Mobile No.: <input type="text" size=65 name="Telephone"> </p><br>
+
+          <p>SELECT YOUR GAME
+              <select type="text" value="" name="Game">
+                  <option>HuntMania</option>
+                  <option>Fortune Hunting</option>
+                  <option>Treasure Hunting</option>
+                  <option>Looters</option>
+
+              </select></p><br><br>
+          <p>Comment:  <textarea cols="55" name="Comment">  </textarea></p>
+          <p><input type="submit" value="send" name="Submit">
+              <input type="reset" value="Reset" name="Reset">
+          </p>
+      </form>
+      <script src="index.js" charset="utf-8"></script>
+   </div>
+  
+    <div class="bottom_content">
+      <div class="footer">
+      <h3>Share With Friends</h3>
+      <a class="footer-link" href="https://www.facebook.com/">Facebook</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://www.google.com/">Website</a>
+      <p class="copyright">&copy; TreasureHunters 2010. All Rights Reserved</p> </div>
+    </div>
+  </div>
+  
+</div>
+</body>
+</html>
