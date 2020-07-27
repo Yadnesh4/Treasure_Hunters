@@ -1,6 +1,6 @@
 body
 {
-background:url(images/bg.jpg) no-repeat center top #000000;
+background:url(bg.jpg) no-repeat center top #000000;
 padding:0px;
 font-family:Georgia, "Times New Roman", Times, serif;
 font-size:18px;
@@ -73,7 +73,7 @@ width:960px;
 height:196px;
 margin:0px;
 padding:0px;
-background:url(images/header_bg.jpg) no-repeat top center;
+background:url(header_bg.jpg) no-repeat top center;
 }
 .logo{
 width:290px;
@@ -154,7 +154,7 @@ width:819px;
 height:200px;
 clear:both;
 margin:auto;
-background:url(images/bottom_bg.jpg) no-repeat top center;
+background:url(bottom_bg.jpg) no-repeat top center;
 }
 .photos_block{
 padding:10px 0 10px 0;
@@ -167,7 +167,7 @@ display:block;
 text-align:center;
 margin:0 18px 0 0;
 position:relative;
-background:url(images/photo_bg.gif) no-repeat center;
+background:url(photo_bg.gif) no-repeat center;
 }
 img.photo{
 padding:6px 0 0 0;
